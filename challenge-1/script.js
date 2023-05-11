@@ -37,8 +37,8 @@ const sarah = {
 	},
 }
 
-console.log(leo.name, leo.address.postal_code);
-console.log(sarah.name, sarah.address.postal_code);
+console.log(leo.name, leo.balance, leo.access_id, leo.age, leo.address.number, leo.address.street, leo.address.postal_code);
+console.log(sarah.name, sarah.balance, sarah.access_id, sarah.age, sarah.address.number, sarah.address.street, sarah.address.postal_code);
 
 // BUG FIXES:
 /*
